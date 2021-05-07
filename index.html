@@ -3,6 +3,7 @@
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
+  <linK rel="stylesheet" href = "main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -10,33 +11,24 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<style>
-    div {
-        
-    }
-</style>
+
 <body>
-  
-<div class="container-sm container-md p-0" style ="width: 962px; padding: 0px;">
-    <div class="container p-0"> 
-        <div class="d-flex justify-content-between">
-            
-            <div class="font-weight-bold font-size-14" style="font-size: 24px;">
-                <div class="" style=" border: 3px solid #FFC740; width: 40px; height: 38px; position: absolute;"></div>
-                <div class="ml-3" style=" background-color: white; z-index: 1;">SUPER LOGO</div>
+    <div class="container p-0" style="max-width: 961px;">
+        <div class="row w-100 m-0 align-items-center flex-nowrap" style="height: 100px;">
+            <div class="col-xl-8  h-100" style="position: relative;" >
+                <div style="position: absolute; border: 3px solid #FFC740; width: 43px; height: 50px; top: 20px;"></div>
+                <h3 style="font-family: Roboto; font-weight: bold; position: absolute; top: 30px; left:30px;">SUPER LOGO</h3>
             </div>
-            <div class=" ">
-                <input style="border:1px solid #9B51E0" type="text">
-                <button class="text-light" style="border:none; background-color: #9B51E0;">GO</button>
+
+            <div class="col-xl-4 d-flex justify-content-end">
+                <input style="border : 2px solid #6D3D99;">
+                <button style="width: 42px; height: 31px; font-family: Roboto; font-size: 14px; line-height: 16px; background-color: #6D3D99; border: none; color: white; font-weight: bold;">GO</button>
             </div>
         </div>
-    </div>
-    
-    <div class="container mt-2 container-md p-0" style ="width: 962px;"> 
-        <nav class="navbar navbar-expand-sm bg-white ml-0 p-0">
 
+        <nav class=" navbar navbar-expand-sm bg-white ml-0 p-0">
             <!-- Links -->
-            <ul class="navbar-nav col-xl-12 ml-0">
+            <ul id="nav_my" class=" navbar-nav col-xl-12 ml-0 p-0" >
               <li class="nav-item m-0" style="width: 125px;">
                 <a class="nav-link w-100 text-light m-0 text-center" href="#" style="background-color:#FFC740 ;">HOME</a>
               </li>
@@ -61,180 +53,197 @@
               <li class="nav-item" style="width: 125px;">
                 <a class="nav-link text-dark text-center" href="#">CONTACT</a>
               </li>
-              
             </ul>
           </nav>
-    </div>
 
-    <div class="container-sm  col-xl-12 mt-3" style="padding: 0px; background-color: black;">
-        <img class="w-100 " src = "image/koz.png" style="margin: 0px;  opacity: 0.6;">
-        <div class="container-sm" style="position: absolute; top: 12px; left: 44px;">
-            <h3  style="width: 400px; font-size: 50px; color: #FFC740;">Aliquam pharetra vulputate</h3>
-            <p style="width: 400px; font-size: 14px; color:white;">Vivamus est mauris, sollicitudin ut ipsum pharetra, porta rutrum turpis. Suspendisse sollicitudin quam eget condimentum posuere. In auctor vel mi porta commodo. Vestibulum mattis fringilla tempus. Etiam eu consectetur nisi. Aenean blandit sodales euismod. In hac habitasse platea dictumst. </p>
-            <button class="b-0" style="background-color: #9B51E0; color:white;">READ MORE</button>
+          <div class="container-xl  col-xl-12 mt-3" style="padding: 0px; background-color: black;">
+            <img class="w-100 " src = "image/koz.png" style="margin: 0px;  opacity: 0.6;">
+            <div class="koz" style="position: absolute; top: 12px; left: 44px;">
+                <div class="row ">
+                    <h3 class="koz_h col-xl-8 col-lg-8 cold-md-12 col-sm-12 col-12"  style=" color: #FFC740;">Aliquam pharetra vulputate</h3>
+                </div>
+
+                <div class="row koz_block">
+                    <p class="koz_p" class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12" style="width: 400px;  color:white;">Vivamus est mauris, sollicitudin ut ipsum pharetra, porta rutrum turpis. Suspendisse sollicitudin quam eget condimentum posuere. In auctor vel mi porta commodo. Vestibulum mattis fringilla tempus. Etiam eu consectetur nisi. Aenean blandit sodales euismod. In hac habitasse platea dictumst. </p>
+                    
+                </div>
+                <button class="koz_b " style="border: none; background-color: #6D3D99; color:white;">READ MORE</button>
+            </div>
         </div>
-    </div>
 
-    <div class="container" style ="padding: 0px;" >
+
+          <div class="row" style="margin-inline: 15px; margin-top: 30px;">
+            <div class="row m-0  w-100 p-0 col-xl-6 col-lg-6 d-block">
+                <div class="p-0 col-xl-12 d-flex" style="max-height: 24px;">
+                    <div  style="height: 16px; min-width: 16px; background-color: #6D3D99;"></div>
+                    <h6 style="margin-inline: 4px; font-family: Roboto; font-weight: bold; min-width: 150px; font-size: 14px; line-height: 16px;">ABOUT SUPER LOGO</h6>
+                    <div class="dog_margin_1" style=" width: 100%; height: 16px; background-color: #6D3D99;"></div>
+                </div>
+
+                <div class="row m-0 p-0 col-xl-12 flex-nowrap">
+                    <div class="p-0 col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4">
+                        <img class="dog w-100" style="border: 2px solid #FFC740; height: 141px;" src="image/dog.PNG">
+                    </div>
+                    <div class="p-0 col-xl-8 col-lg-8 col-md-9 col-sm-8 col-8">
+                        <p class="dog_margin_1 text-justify dog_text" style="margin-bottom: 15px;  margin-left: 10px; font-family: Roboto; font-style: normal; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                        <p class="mb-0" style="font-weight: normal; font-family: Roboto; font-size: 12px; line-height: 14px;margin-left: 10px; text-decoration: underline;">Read more...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 mt-lg-0 row m-0  w-100 p-0 col-xl-6 col-lg-6 d-block">
+                <div class="p-0 col-xl-12 d-flex" style="max-height: 24px;">
+                    <div class="dog_margin_2" style="height: 16px; min-width: 16px; background-color: #FFC740;"></div>
+                    <h6  style="margin-inline: 4px; font-family: Roboto; font-weight: bold; min-width: 150px; font-size: 14px; line-height: 16px;">ABOUT SUPER LOGO</h6>
+                    <div style=" width: 100%; height: 16px; background-color: #FFC740;"></div>
+                </div>
+
+                <div class="row m-0 p-0 col-xl-12 flex-nowrap">
+                    <div class="p-0 col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4">
+                        <img class="dog_margin_2 dog w-100" style="border: 2px solid #FFC740; height: 141px;" src="image/steve.PNG">
+                    </div>
+                    <div class="p-0 col-xl-8 col-lg-8 col-md-9 col-sm-8 col-8">
+                        <p class="text-justify dog_text" style="margin-bottom: 15px;  margin-left: 20px; font-family: Roboto; font-style: normal; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                        <p class="mb-0" style="font-weight: normal; font-family: Roboto; font-size: 12px; line-height: 14px;margin-left: 20px; text-decoration: underline;">Read more...</p>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+
+          <div class="row" style="margin-inline: 15px; margin-top: 30px;">
+            <div class="row m-0  w-100 p-0 col-xl-6 col-lg-6 d-block">
+                <div class="p-0 col-xl-12 d-flex" style="max-height: 24px;">
+                    <div  style="height: 16px; min-width: 16px; background-color: #FFC740;"></div>
+                    <h6 style="margin-inline: 4px; font-family: Roboto; font-weight: bold; min-width: 150px; font-size: 14px; line-height: 16px;">ABOUT SUPER LOGO</h6>
+                    <div class="dog_margin_1" style=" width: 100%; height: 16px; background-color: #FFC740;"></div>
+                </div>
+
+                <div class="row m-0 p-0 col-xl-12 flex-nowrap">
+                    <div class="p-0 col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4">
+                        <img class="dog w-100" style="border: 2px solid #FFC740; height: 141px;" src="image/limur.PNG">
+                    </div>
+                    <div class="p-0 col-xl-8 col-lg-8 col-md-9 col-sm-8 col-8">
+                        <p class="dog_margin_1 text-justify dog_text" style="margin-bottom: 15px;  margin-left: 10px; font-family: Roboto; font-style: normal; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                        <p class="mb-0" style="font-weight: normal; font-family: Roboto; font-size: 12px; line-height: 14px;margin-left: 10px; text-decoration: underline;">Read more...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4 mt-lg-0 row m-0  w-100 p-0 col-xl-6 col-lg-6 d-block">
+                <div class="p-0 col-xl-12 d-flex" style="max-height: 24px;">
+                    <div class="dog_margin_2" style="height: 16px; min-width: 16px; background-color: #6D3D99;"></div>
+                    <h6  style="margin-inline: 4px; font-family: Roboto; font-weight: bold; min-width: 150px; font-size: 14px; line-height: 16px;">ABOUT SUPER LOGO</h6>
+                    <div style=" width: 100%; height: 16px; background-color: #6D3D99;"></div>
+                </div>
+
+                <div class="row m-0 p-0 col-xl-12 flex-nowrap">
+                    <div class="p-0 col-xl-4 col-lg-4 col-md-3 col-sm-4 col-4">
+                        <img class="dog_margin_2 dog w-100" style="border: 2px solid #FFC740; height: 141px;" src="image/girl.PNG">
+                    </div>
+                    <div class="p-0 col-xl-8 col-lg-8 col-md-9 col-sm-8 col-8">
+                        <p class="text-justify dog_text" style="margin-bottom: 15px;  margin-left: 20px; font-family: Roboto; font-style: normal; font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                        <p class="mb-0" style="font-weight: normal; font-family: Roboto; font-size: 12px; line-height: 14px;margin-left: 20px; text-decoration: underline;">Read more...</p>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+          
+          
+          <div class="row " style="margin:0; margin-inline: 15px; margin-top: 40px;">
+            <div class="p-0 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex">
+                    <div  style="height: 16px; min-width: 16px; background-color: #FFC740;"></div>
+                    <h6 style="margin-inline: 5px;">SERVICE</h6>
+                    <div class="mr-xl-3 mr-lg-3 mr-md-3 mr-sm-0" style=" width: 100%; height: 16px; background-color: #FFC740;"></div>
+                </div>
+
+                <div>
+                    <p class="text-justify mr-xl-3 mr-lg-3 mr-md-3 mr-sm-0" style="font-size: 12px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                    <p class="m-0" style="font-size: 12px; line-height: 14px;">Read more...</p>
+                </div>
+            </div>
+
+
+
+
+            <div class="mt-md-0 mt-lg-0 mt-xl-0 mt-3 mt-sm-3 p-0 col-xl-4  col-lg-4 col-md-4 col-sm-12" >
+                <div class="d-flex">
+                    <div  style="height: 16px; min-width: 16px; background-color: #6D3D99;"></div>
+                    <h6 style="min-width: 110px; margin-inline: 5px;">RESENT POSTS</h6>
+                    <div style=" width: 100%; height: 16px; background-color: #6D3D99;"></div>
+                </div>
+
+                <div class="m-0 w-100 row flex-nowrap">
+                    <div class="p-0 col-xl-2 col-lg-2 col-md-2 col-sm-1 col-1">
+                        <img style="height: 40px;" src="image/car.PNG">
+                    </div>
+
+                    <div class="p-0 col-xl-10 col-lg-10 col-md-10 col-sm-11 col-11">
+                        <p class="m-0 ml-3 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0" style="font-size: 12px; line-height: 14px;" class="m-0 p-0 ">LOREM IPSUM</p>
+                        <p class="m-0 ml-3 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0" style="font-size: 12px; line-height: 14px;" class="m-0 p-0 text-justify">Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.</p>
+                    </div>
+                </div>
+                <div class="m-0 w-100 row flex-nowrap">
+                    <div class="p-0 col-xl-2 col-lg-2 col-md-2 col-sm-1 col-1">
+                        <img style="height: 40px;" src="image/phone.PNG">
+                    </div>
+
+                    <div class="p-0 col-xl-10 col-lg-10 col-md-10 col-sm-11 col-11">
+                        <p class="m-0 ml-3 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0" style="font-size: 12px; line-height: 14px;" class="m-0 p-0 ">LOREM IPSUM</p>
+                        <p class="m-0 ml-3 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0" style="font-size: 12px; line-height: 14px;" class="m-0 p-0 text-justify">Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.</p>
+                    </div>
+                </div>
+                <div class="m-0 w-100 row flex-nowrap">
+                    <div class="p-0 col-xl-2 col-lg-2 col-md-2 col-sm-1 col-1">
+                        <img  style="height: 40px;" src="image/bbc.PNG">
+                    </div>
+
+                    <div class="p-0 col-xl-10 col-lg-10 col-md-10 col-sm-11 col-11">
+                        <p class="m-0 ml-3 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0" style="font-size: 12px; line-height: 14px;" class="m-0 p-0 ">LOREM IPSUM</p>
+                        <p class="m-0 ml-3 ml-sm-0 ml-md-0 ml-lg-0 ml-xl-0" style="font-size: 12px; line-height: 14px;" class="m-0 p-0 text-justify">Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="mt-md-0 mt-lg-0 mt-xl-0 mt-3 mt-sm-3 p-0 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex">
+                    <div class="ml-xl-3 ml-lg-3 ml-md-3 ml-sm-0"  style="height: 16px; min-width: 16px; background-color: #FFC740;"></div>
+                    <h6 style="margin-inline: 5px;">SERVICE</h6>
+                    <div style=" width: 100%; height: 16px; background-color: #FFC740;"></div>
+                </div>
+
+                <div>
+                    <p class="text-justify ml-xl-3 ml-lg-3 ml-md-3 ml-sm-0" class="text-justify" style="font-size: 12px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
+                    <p class="ml-xl-3 ml-lg-3 ml-md-3 ml-sm-0" style="font-size: 12px; line-height: 14px;">Read more...</p>
+                </div>
+            </div>
+            
+
+          </div>
         
-        <div class="row">
-            <div class="col-xl-6" style="margin-top: 20px; padding-right: 30px;">
-                <div class="row">
-                    <div class="d-inline-block" style="background-color: #9B51E0; width: 16px;"></div>
-                    <h6  class="d-inline-block mr-1" style="padding-top: 3px; padding-left: 3px; padding-right: 0px; line-height: 9px;">ABOUT SUPER LOGO</h6>
-                    <div class="d-inline-block" style=" background-color: #9B51E0; width: 62%;"></div>
-                </div>
+        
+          <div class="d-flex mt-4 " style="margin-inline: 15px;">
+            <div  style="height: 16px; min-width: 16px; background-color: #6D3D99;"></div>
+            <h6 style="margin-inline: 5px;">CLENTS</h6>
+            <div style=" width: 100%; height: 16px; background-color: #6D3D99;"></div>
+          </div>
 
-                <div class="row" style="margin-top: 5px;">
-                    <img class="col-xl-5" src="image/dog.PNG" style="height: 190px; width: 190px; padding: 0px; margin-bottom: 20px; border: 3px solid #FFC740"> 
-                    <div class="col-sm-7">
-                        <p class="text-justify" style="font-size: 14px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
-                        <a style="font-size: 14px; line-height: 14px; text-decoration: underline;">READ MORE...</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6" style="margin-top: 20px;">
-                <div class="row">
-                    <div class="d-inline-block" style="background-color: #FFC740; width: 16px;"></div>
-                    <h6  class="d-inline-block mr-1" style="padding-top: 3px; padding-left: 3px; padding-right: 0px; line-height: 9px;">ABOUT SUPER LOGO</h6>
-                    <div class="d-inline-block" style=" background-color: #FFC740; width: 62%;"></div>
-                </div>
-
-                <div class="row" style="margin-top: 5px;">
-                    <img class="col-xl-5" src="image/steve.PNG" style="height: 190px; width: 190px; padding: 0px; margin-bottom: 20px; border: 3px solid #FFC740"> 
-                    <div class="col-sm-7">
-                        <p class="text-justify" style="font-size: 14px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
-                        <a style="font-size: 14px; line-height: 14px;">Steve Jobs, CEO</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-xl-6" style="margin-top: 20px; padding-right: 30px;">
-                <div class="row">
-                    <div class="d-inline-block" style="background-color: #FFC740; width: 16px;"></div>
-                    <h6  class="d-inline-block mr-1" style="padding-top: 3px; padding-left: 3px; padding-right: 0px; line-height: 9px;">ABOUT SUPER LOGO</h6>
-                    <div class="d-inline-block" style=" background-color: #FFC740; width: 62%;"></div>
-                </div>
-
-                <div class="row" style="margin-top: 5px;">
-                    <img class="col-xl-5" src="image/limur.PNG" style="height: 190px; width: 190px; padding: 0px; margin-bottom: 20px; border: 3px solid #FFC740"> 
-                    <div class="col-sm-7">
-                        <p class="text-justify" style="font-size: 14px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
-                        <a style="font-size: 14px; line-height: 14px; text-decoration: underline;">READ MORE...</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-6" style="margin-top: 20px;">
-                <div class="row">
-                    <div class="d-inline-block" style="background-color: #9B51E0; width: 16px;"></div>
-                    <h6  class="d-inline-block mr-1" style="padding-top: 3px; padding-left: 3px; padding-right: 0px; line-height: 9px;">ABOUT SUPER LOGO</h6>
-                    <div class="d-inline-block" style=" background-color: #9B51E0; width: 62%;"></div>
-                </div>
-
-                <div class="row" style="margin-top: 5px;">
-                    <img class="col-xl-5" src="image/girl.PNG" style="height: 190px; width: 190px; padding: 0px; margin-bottom: 20px; border: 3px solid #FFC740"> 
-                    <div class="col-sm-7">
-                        <p class="text-justify" style="font-size: 14px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
-                        <a style="font-size: 14px; line-height: 14px;">Steve Jobs, CEO</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container row p-0">
-        <div class="col-xl-4 p-0 w-100 mt-3" >
-            <div class="row p-0 m-0">
-                <div class="d-inline-block" style="background-color: #FFC740; width: 16px; height: 16px;"></div>
-                <h6  class="d-inline-block mr-1 ml-1" style="margin-top: 5px; padding-right: 0px; line-height: 9px;">SERVICES</h6>
-                <div class="d-inline-block" style=" background-color: #FFC740; width: 65%;"></div>
-            </div>
-
-            <div class="container w-100  p-0" >
-                <p class="mt-3 text-justify mr-4" style="font-size: 14px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
-                <a style="font-size: 14px; line-height: 14px; text-decoration: underline;">READ MORE...</a>
-            </div>
-
-        </div>
-
-
-        <div class="col-xl-4 p-0 w-100 mt-3">
-            <div class="row p-0 m-0">
-                <div class="d-inline-block" style="background-color: #9B51E0; width: 16px; height: 16px;"></div>
-                <h6  class="d-inline-block mr-1 ml-1" style="margin-top: 5px; padding-right: 0px; line-height: 9px;">RESENT POSTSS</h6>
-                <div class="d-inline-block" style=" background-color: #9B51E0; width: 50%; height: 16px"></div>
-            </div>
-
-            <div class="container w-100 mt-3 p-0" >
-                <div class="row mb-3">
-                    <img class="col-xl-3" src="image/car.PNG" style="width: 80px;">
-                    <div class="col-sm-9 m-0 p-0">
-                        <p class="m-0 p-0" style="font-size: 14px;">LOREM IPSUM</p>
-                        <p class="mr-5 mb-0 p-0 text-justify" style="font-size: 13px; line-height: 12px;">Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.</p>
-                    </div>
-                </div>
-
-                <div class="row mb-3">
-                    <img class="col-xl-3" src="image/phone.PNG" style="width: 80px;">
-                    <div class="col-sm-9 m-0 p-0">
-                        <p class="m-0 p-0" style="font-size: 14px;">LOREM IPSUM</p>
-                        <p class="mr-5 mb-0 p-0 text-justify" style="font-size: 13px; line-height: 12px;">Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <img class="col-xl-3" src="image/bbc.PNG" style="width: 80px;">
-                    <div class="col-sm-9 m-0 p-0">
-                        <p class="m-0 p-0" style="font-size: 14px;">LOREM IPSUM</p>
-                        <p class="mr-5 mb-0 p-0 text-justify" style="font-size: 12px; line-height: 12px;">Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-        <div class="col-xl-4 p-0 w-100 mt-3">
-            <div class="row p-0 m-0">
-                <div class="d-inline-block" style="background-color: #FFC740; width: 16px; height: 16px;"></div>
-                <h6  class="d-inline-block mr-1 ml-1" style="margin-top: 5px; padding-right: 0px; line-height: 9px;">SERVICES</h6>
-                <div class="d-inline-block" style=" background-color: #FFC740; width: 65%; height: 16px;"></div>
-            </div>
-
-            <div class="container w-100 m-0 p-0" >
-                <p class="mt-3 text-justify" style="font-size: 14px; line-height: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam massa, dignissim at nisi nec, iaculis molestie leo. Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis sem a efficitur auctor. Sed vulputate vitae dui non fermentum. Donec non sem dignissim, tincidunt arcu eget, posuere tellus. Quisque consectetur diam id faucibus sagittis. Praesent placerat, diam non sollicitudin suscipit, eros erat</p>
-                <a style="font-size: 14px; line-height: 14px; text-decoration: underline;">READ MORE...</a>
-            </div>
-        </div>
+          <div class="d-flex w-100 justify-content-center flex-wrap">
+            <img style="height: 100px;" src="image/html5.PNG">
+            <img style="height: 100px;" src="image/html6.PNG">
+            <img style="height: 100px;" src="image/node.PNG">
+            <img style="height: 100px;" src="image/php.PNG">
+            <img style="height: 100px;" src="image/sql.PNG">
+          </div>
 
     </div>
-
-
-    <div class="container w-100 mt-5 ml-0 p-0">
-        <div class="d-inline-block m-0 p-0" style="background-color: #9B51E0; width: 16px; height: 16px;">
-        </div>
-        <div class="d-inline-block">CLENTS</div>
-        <div class="d-inline-block" style="background-color: #9B51E0; height: 16px; width: 91%;">
-        </div>
-    </div>
-
-    <div class="container w-100 mt-0 ml-0 p-0">
-        <img class="d-inline-block " src="image/html5.PNG" style="width: 120px;">
-        <img class="d-inline-block" src="image/html6.PNG" style="width: 120px;">
-        <img class="d-inline-block" src="image/node.PNG" style="width: 230px;">
-        <img class="d-inline-block" src="image/php.PNG" style="width: 230px;">
-        <img class="d-inline-block" src="image/sql.PNG" style="width: 230px;">
-    </div>
-
-</div>
-
-
 
 
 </body>

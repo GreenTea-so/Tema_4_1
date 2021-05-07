@@ -1,0 +1,157 @@
+
+
+.dog{
+   width: 156px;
+    
+}
+
+.dog_text{
+    font-size: 12px; 
+    line-height: 14px;
+}
+
+.dog_margin_1{
+    margin-right: 11px;
+}
+
+
+.dog_margin_2{
+    margin-left: 11px;
+}
+
+
+@media (max-width: 992px) {
+    .dog{
+        width: 200px;
+        
+    }
+
+
+    .dog_text{
+        font-size: 16px; 
+        line-height: 18px;
+    }
+
+    .dog_margin_1{
+        margin-right: 0px;
+    }
+
+    .dog_margin_2{
+        margin-left: 0px;
+    }
+}
+.koz_h{
+    font-size: 50px;
+}
+@media (max-width: 880px) {
+    .dog{
+        width: 180px;
+        
+    }
+
+    .koz_h{
+        font-size: 40px;
+        
+    }
+    
+}
+
+
+
+@media (max-width: 670px) {
+    .koz_h{
+        font-size: 40px;
+        
+    }
+    .koz_h{
+        font-size: 20px;
+        
+    }
+
+    .koz_p{
+        font-size: 10px;
+    }
+
+    .koz_b{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    #nav_my{
+        display: block;
+    }
+    
+}
+
+.koz_p{
+    font-size: 14px;
+}
+
+.koz_b{
+    padding-inline: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 580px) {
+    .dog{
+        width: 150px;
+        
+    }
+
+    .koz_h{
+        font-size: 20px;
+        
+    }
+
+    .koz_p{
+        font-size: 12px;
+    }
+
+    .koz_b{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    
+    
+ 
+}
+
+@media (max-width: 495px) {
+    .dog{
+        width: 100px;
+        
+    }
+
+    .dog_text{
+        font-size: 12px; 
+        line-height: 12px;
+        
+    }
+
+    .koz_h{
+        font-size: 20px;
+        
+    }
+
+    .koz_p{
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    .koz_b{
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .koz{
+        max-width: 330px;
+    }
+
+    .koz_block{
+        max-width: 330px;
+    }
+ 
+}
+
